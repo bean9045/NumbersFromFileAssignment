@@ -33,6 +33,7 @@ void initializeArray(int numbersArrayIn[])
 	{
 		count++;
 	}
+	numbers.close();
 }
 
 int getLowest(int numbersArrayIn[], const int ARRAY_SIZE_IN)
