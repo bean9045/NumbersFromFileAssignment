@@ -12,8 +12,6 @@ int main()
 	int numbersArray[ARRAY_SIZE];
 	initializeArray(numbersArray);
 
-	cout << ARRAY_SIZE << endl;
-
 	cout << "The lowest number is: " << getLowest(numbersArray, ARRAY_SIZE) << endl;
 	cout << "The highest number is: " << getHighest(numbersArray, ARRAY_SIZE) << endl;
 	cout << "The sum of all these numbers is: " << getSum(numbersArray, ARRAY_SIZE) << endl;
